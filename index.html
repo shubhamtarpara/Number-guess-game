@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number-Guess-App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main-header">
+        <H1>Number Guess App</H1>
+    </div>
+    <div class="header">
+        <h2>The computer has chosen a number between 1 to 100.</h2>
+    </div>
+
+    <div id="container">
+
+        <p id="output">Enter a number below</p>
+        <h5 id="attempt" >Attempts : 0</h5>
+        <input type="number" id="input" min="1" max="100" value=" ">
+        <button id="btn">Enter</button>
+        <button id="againButton" onclick="document.getElementById(
+     'input').value = ''" type="reset">Reset</button>
+
+
+    </div>
+    <div class="footer">
+        <p>Click the button to guess number between 1 and 100.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
